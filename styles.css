@@ -389,3 +389,36 @@
         flex-direction: column;
     }
 } 
+.collection__Explore{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+ 
+}
+.collection__Explore h1{
+    font-size: 35px;
+    font-weight:500 ;
+    margin-left: 30px;
+}
+.collection__Explore div{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 10px;
+    padding:1.5rem;
+    gap: 1rem;
+}
+.collection__Explore .Explore_options span{
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+
+}
+.collection__Explore .Explore_options {
+    border: 1.5px solid rgb(215, 215, 215) ;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(116, 115, 115);
+}
